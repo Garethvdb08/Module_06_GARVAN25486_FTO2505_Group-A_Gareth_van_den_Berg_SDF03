@@ -21,3 +21,44 @@ body {
 img {
   display: block;
 }
+
+/* === HEADER STYLES ===*/
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* FIRST CHILD */
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid green;
+}
+/*------------------------------*/
+/*SECOND CHILD*/
+.profile-user-settings {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.profile-stats > ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 15px;
+}
+/*--------------------------------*/
+/*BUTTONS*/
+.btn {
+  background-color: #fafafa;
+  color: #262626;
+}
