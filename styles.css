@@ -126,3 +126,55 @@ img {
 }
 /*---------------------------------------*/
 /*=== END OF MAIN CONTENT SECTION === */
+/*-----------------------------------------*/
+/* ==== MEDIA QUERIES ===== */
+/*--Tablets--*/
+@media screen and (max-width: 992px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 1rem 0;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+/*--Cellphones--*/
+@media screen and (max-width: 600px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #118346ba;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 5px;
+    margin: 1rem 0;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+/* === END OF MEDIA QUERRIES === */
